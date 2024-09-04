@@ -11,7 +11,7 @@ function App() {
   return (
     <React.Fragment>
       <Navbar/>
-        <div className="bg-blue-300 p-24 h-full m-10 rounded-xl">
+        <div className="bg-blue-300 p-10 sm:p-10 md:p-24 lg:p-24 h-full m-6 sm:m-6 md:m-10 lg:m-10 rounded-xl">
           <div className='flex gap-2'>
             <input className='w-full h-12 rounded-md p-2' type="search" placeholder='Search...' />
             <button className='bg-blue-700 pl-8 pr-8 rounded-md text-white'>
@@ -23,7 +23,7 @@ function App() {
             <Body/>
           </span>
         </div>
-        <span className='text-3xl font-semibold p-10'>Explore Sri Lanka</span>
+        <span className='text-3xl font-semibold p-6 sm:p-6 lg:p-10 md:p-10'>Explore Sri Lanka</span>
         <div className="p-10 flex-row gap-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
           <PropertyCard/>
           <PropertyCard/>
@@ -46,7 +46,3 @@ function App() {
 }
 
 export default App
-
-// display: flex;
-//     justify-content: space-between;
-//     margin-top: 25px;
